@@ -73,3 +73,8 @@ myModule.controller('themeController',['$scope',function($scope){
 		$scope.css="theme3";
 	}
 }]);
+myModule.controller('headerNavopen',['$scope',function($scope){
+	$scope.navBaropen=function(){
+		$scope.flag=true;
+	}
+}]);

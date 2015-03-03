@@ -31,23 +31,28 @@ h1{
 	color: white !important; 
 	font-weight: 100 !important;
 	font-size: 30px;
-	padding-left: 3px;
+	padding-left: 26px;
 }
+
 li{
 	text-decoration: none;
 	display: inline-block;
 }
+
 .navbar-nav>li>a{
 	padding-top: 33px;
 }
+
 li:hover{
 	background-color: grey;
 	color: rgba(16, 6, 6, 0.73);
 	transition:.7s;
 }
+
 .formEnter{
 	text-align: center;
 }
+
 .input{
 	width:320px;
 	height: 60px;
@@ -60,21 +65,25 @@ li:hover{
 	margin-top: 10px;
 	background:none; 
 }
+
 input[placeholder]{
 	font-family: 'Quicksand-Regular';
 	font-weight: bold;
 }
+
 ::-webkit-input-placeholder {
     color:grey;
 }
+
 .button-group{
 	padding-top: 29px;
-text-align: center;
+	text-align: center;
 }
+
 .square-button {
 	height: 40px;
 	/*width: 102px;*/
-	width: 10%;
+	width: 20%;
 	border: 1px solid rgb(0, 65, 128);
 	font-family: 'Quicksand-Regular';
 	cursor: pointer;
@@ -129,7 +138,6 @@ heading
 	border-right: none;
 	cursor: pointer;
 }
-
 tr th,td{
 	text-align: center !important;
 	border-right: 1px solid white;
