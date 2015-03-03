@@ -1,0 +1,24 @@
+<div class="row table-row">
+	<div class="col-md-10 col-md-offset-1 table-responsive">
+	  <table class="table table-myclass">
+	  		<thead>
+				<th>Subject</th>
+				<th>Assignee</th>
+				<th>Priority[1-10]</th>
+			</thead>
+			<tbody>
+				<tr  ng-repeat="x in names">
+					<td>{{x.subject}}</td>
+					<td>{{x.assignee}}</td>
+					<td>
+						<form name="prio" ng-controller="addcount">
+						<input type="text" class="priority-input" name="input"  ng-model="key" placeholder="5" readonly>
+						<input type="range" ng-model="key" min="1" max="10" ng-change="addCount($index)">
+						<!-- <span style="color:red" ng-show="prio.input.$invalid">invalid</span> -->
+						</form>
+					</td>
+				</tr>
+			</tbody>
+	  </table>
+	</div>
+</div>

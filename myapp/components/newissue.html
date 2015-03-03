@@ -1,0 +1,12 @@
+<div class="row my-row">
+	<div class="col-md-6 col-md-offset-3 form-myclass">
+		<form class="formEnter" role="form" ng-submit="insert()">			
+			<input type="text" ng-focus="isAnimate=true" ng-blur="isAnimate=false" ng-class='{animate:isAnimate}' ng-model="item.subject" class="input" id="subject-input" placeholder="SUBJECT" required>
+			<input type="text" ng-focus="isAnimate1=true" ng-blur="isAnimate1=false" ng-class='{animate:isAnimate1}' ng-model="item.assignee" class="input" id="assignee-input" placeholder="ASSIGNEE" required>
+			<div class="button-group">
+				<button class="square-button">SUBMIT</button>
+				<button class="square-button" ng-click="clearStoragedata()">CLEAR</button>
+			</div>
+		</form>
+	</div>
+</div>

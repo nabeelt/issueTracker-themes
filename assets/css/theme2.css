@@ -1,0 +1,90 @@
+
+.navbar.navbar-inverse#header{
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #D1D5D4;
+	background:#E1E3E4;
+	box-shadow: 0 0 3px black;
+	float: left;
+	border-top: 0;
+	border-right: 0;
+	border-left:0;
+	border-radius:0px;
+	margin: 0;
+	padding: 0;
+}
+.h1-container{
+	height: 100px;
+	float: left;
+	background-color: #3C948B;
+	width: 15%;
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	height: 100%;
+	background-image: none;
+	background-color:#E1E3E4;
+	background-size: cover;
+}
+
+
+.issues
+,.new-issue{
+	float: left;
+	height: 100px;
+	width: 110px;
+	border-right: 1px solid #D1D5D4;
+	text-align: center;
+}
+.collapse.navMenus{
+	float: left;
+	width: 77%;
+	padding: 0;
+}
+.navbar-collapse.navMenus{
+	float: left;
+	width: 77%;
+	padding: 0;
+}
+.logo{
+	display: block;
+	float: left;
+	height: 100px;
+	background-color: #1A1A1A;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	width: 8%;
+	padding: 0;
+}
+.table.table-myclass{
+	background-color: rgb(60, 148, 139);
+	color: white;
+	text-align: center;
+	font-family: 'Quicksand-Regular';
+	font-weight: bolder;
+	font-size: 18px;
+	box-shadow: 0 0 4px grey;
+	border-left: 6px solid white;
+	border-right: 6px solid white;
+	cursor: pointer;
+}
+tr th,td{
+	text-align: center !important;
+	border-right: 1px solid white;
+}
+tr:hover{
+	background-color: rgba(107, 190, 182, 0.98);
+	color:grey;
+	transition:.4s;
+}
+th{
+	background-color: black !important;
+}
+.animate{
+	background-color: rgb(255, 255, 255);
+}
+.ui-class{
+	background-color:#E1E3E4;
+}

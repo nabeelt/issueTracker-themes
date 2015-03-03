@@ -1,0 +1,26 @@
+[
+		{
+			"subject":"location change",
+			"assignee":"shaikh"
+		},	
+		{
+			"subject":"WIFI problem",
+			"assignee":"aniraj"
+		},		
+		{
+			"subject":"Facebook access",
+			"assignee":"vishnu"
+		},	
+		{
+			"subject":"Youtube access ",
+			"assignee":"vishnu"
+		},	
+		{
+			"subject":"Launch rock access",
+			"assignee":"shaikh"
+		},
+		{
+            "subject":"Software installation",
+			"assignee":"shaikh"
+		}
+	]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myapp" ng-controller="themeController">
+	<title>Themes</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/theme1.css">
+		<link rel="stylesheet" type="text/css" ng-href="assets/css/{{css}}.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	</head>	
+	<body>
+		<heading></heading>
+		<div class="content">
+			<div ui-view class="ui-class"></div>
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src= "assets/js/angular.min-latest.js"></script>
+		<script src= "assets/js/ngStorage.min.js"></script>
+		<script src= "assets/js/angular-ui-router.js"></script>
+		<script src= "myapp/myapp.module.js"></script>
+		<script src="myapp/app.directive.js"></script>
+		<script src="myapp/app.route.js"></script>		
+		<script src="myapp/services/app.services.js"></script>
+		<script src="myapp/app.controller.js"></script>
+	</body>
+</html>

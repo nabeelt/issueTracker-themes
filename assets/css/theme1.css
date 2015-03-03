@@ -1,0 +1,189 @@
+*{
+	padding: 0;
+	margin:0;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@font-face{
+	font-family: 'darkforest';
+	src:url(../fonts/darkforest.ttf);
+}
+@font-face{
+	font-family: 'Pamela';
+	src:url(../fonts/pamela.ttf);
+}
+@font-face{
+	font-family: 'rexlia';
+	src:url(../fonts/rexlia.ttf);
+}
+@font-face{
+	font-family: 'Quicksand-Regular';
+	src:url(../fonts/Quicksand-Regular.otf);
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+h1{
+	
+	margin: 0px !important;
+	font-family:'darkforest' !important;
+	color: white !important; 
+	font-weight: 100 !important;
+	font-size: 30px;
+	padding-left: 3px;
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+}
+.navbar-nav>li>a{
+	padding-top: 33px;
+}
+li:hover{
+	background-color: grey;
+	color: rgba(16, 6, 6, 0.73);
+	transition:.7s;
+}
+.formEnter{
+	text-align: center;
+}
+.input{
+	width:320px;
+	height: 60px;
+	border: 4px solid rgb(0, 65, 128);
+	border-left: none;
+	border-right: none;
+	outline: none;
+	padding:9px;
+	font-size: 20px;
+	margin-top: 10px;
+	background:none; 
+}
+input[placeholder]{
+	font-family: 'Quicksand-Regular';
+	font-weight: bold;
+}
+::-webkit-input-placeholder {
+    color:grey;
+}
+.button-group{
+	padding-top: 29px;
+text-align: center;
+}
+.square-button {
+	height: 40px;
+	/*width: 102px;*/
+	width: 10%;
+	border: 1px solid rgb(0, 65, 128);
+	font-family: 'Quicksand-Regular';
+	cursor: pointer;
+	font-weight: bold;
+	background-color: black;
+	color: grey;
+}
+.square-button:hover{
+	background-color: #90B3B0;
+	transition:.6s;
+}
+.navbar-inverse{
+	background-color: #2F2F2F;
+	border-color: #080808;
+	border-radius:0px !important;
+}
+.content{
+	height: 100%;
+	background-image: none;
+	background-color:#F9970C; 
+	background-size: cover;
+}
+heading
+{
+	float: left;
+	width: 100%;
+}
+.row.my-row{
+	width: 100%;
+	margin: 0 ;
+	padding-top: 20%;
+}
+.form-myclass{
+	text-align: center;
+}
+.row.table-row {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	padding-top: 15%;
+}
+.table.table-myclass{
+	background-color: rgba(60, 148, 139, 0);
+	border: none;
+	color: rgb(18, 16, 16);
+	text-align: center;
+	font-family: cursive;
+	font-weight: bolder;
+	font-size: 18px;
+	box-shadow: 0 0 12px rgb(119, 21, 21);
+	border-left: none;
+	border-right: none;
+	cursor: pointer;
+}
+
+tr th,td{
+	text-align: center !important;
+	border-right: 1px solid white;
+	font-size: 13px;
+}
+tr:hover{
+	background-color: rgba(107, 190, 182, 0.98);
+	color:grey;
+	transition:.4s;
+}
+th{
+	background-color: black !important;
+	color:white;
+}
+input{
+	width: 72%;
+	border: 1px solid;
+	/*border-radius: 4px;*/
+	height: 37px;
+	color: black !important;
+
+}
+input[type=range] {
+	display: block;
+	width: 100%;
+	width: 40% !important;
+	margin: 0 auto;
+	-webkit-appearance:none !important;
+	margin-top: 11px !important;
+	border-radius: 8px; 
+	height: 9px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer
+	background-color: rgb(200, 200, 200) ;
+}
+.animate{
+	border-top: 8px solid rgb(0, 65, 128);
+	border-bottom :8px solid rgb(0, 65, 128);
+	transition: .5s;
+	background-color:#F9970C;
+}
+.priority-input{
+	border-radius: 3px;
+	width: 56px;
+	float: left;
+} 
+a:hover{
+	cursor: pointer;
+}
+.logo{
+	display:none;
+}
+.ui-class{
+	background-color:#F9970C;
+}
+
