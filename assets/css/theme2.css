@@ -134,4 +134,7 @@ th{
 	.table.table-myclass{
 		margin-top: 100px;
 	}
+	li{
+		float: left !important;
+	}
 }
